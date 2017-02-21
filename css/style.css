@@ -1521,3 +1521,59 @@ blockquote:before {
   }
 }
 
+
+@media (max-width: 412px){
+  header .intro-text .intro-lead-in {
+    font-family: "proxima-nova", Arial, sans-serif;
+    /* font-style: italic; */
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  .navbar {
+    min-height: 68px;
+  }
+  header .intro-text .intro-heading p {
+    line-height: 30px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  #mainNav .container{
+    margin-top: 5px;
+  }
+  #logo-img{
+    margin-left: 15px;
+    margin-top:7px;
+  }
+  #services .info {
+    padding: 60px 42px 100px 37px;
+  }
+  .info:after{
+    top: 105%;
+  }
+  .side-img-bg-right {
+    width: 110% !important;
+  }
+  #work .info2 {
+    padding: 100px 37px 100px 40px;
+  }
+  .c-tab__content {
+    padding: 1rem 4rem;
+  }
+  .c-tab__content h1{
+    padding: 0 15px;
+  }
+  #contact {
+    padding-top: 60px;
+  }
+  footer span.copyright {
+    float:inherit;
+  }
+  ul.social-buttons{
+    float:inherit;
+  }
+  #testimonial .col-md-4.col-md-12{
+    padding:0;
+  }
+}
